@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+  flex-wrap: initial;
+}
+
+.App-header {
+  background: linear-gradient(to right, #CDFFD8, #94B9FF);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  padding-inline: 5vw;
+
+}
+@media (max-width: 768px) {
+  .container {
+    background-size: contain;
+  }
+}
